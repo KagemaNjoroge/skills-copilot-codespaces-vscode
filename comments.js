@@ -16,6 +16,7 @@ const server = http.createServer(function(req, res) {
     const queryString = parsedUrl.query;
     // 7. get http method
     const method = req.method;
+    
 
     // 8. send response
     if (pathName === '/hello' && method === 'GET') {
